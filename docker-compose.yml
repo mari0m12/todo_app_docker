@@ -1,12 +1,7 @@
 version: '3.8'
-
 services:
-  flask_app:
-    build: .
-    volumes:
-      - .:/app
-    working_dir: /app
-    command: python app.py
+  web:
+    image: mariam130/todo_app_docker:latest
     ports:
       - "5000:5000"
     depends_on:

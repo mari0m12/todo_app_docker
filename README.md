@@ -1,16 +1,19 @@
-# 📝 تطبيق مدير المهام (Flask Task Manager)
+# 📝 My To-Do App (Dockerized Flask App)
 
-تطبيق بسيط باستخدام Python Flask لإدارة المهام (إضافة - تعديل - حذف).
+This is a simple and styled **To-Do List Web App** built with **Python Flask** and containerized using **Docker & Docker Compose**. It demonstrates how to create a backend Flask service with a connected database and deploy it in containers.
 
-## ✅ المتطلبات
+---
 
-- Docker
-- Docker Compose
+## 🚀 Features
 
-## 🚀 خطوات التشغيل
+- Create a styled Flask-based to-do app
+- Dockerized with Docker and Docker Compose
+- Containerized web app and database (e.g., MySQL or SQLite)
+- Easy to run and deploy
 
-### تشغيل محليًا (بدون Docker)
+---
 
-```bash
-pip install -r requirements.txt
-python app.py
+## 🐳 DockerHub
+
+You can pull the image from DockerHub:
+
